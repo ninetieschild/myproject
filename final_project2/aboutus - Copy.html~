@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>about samatics</title>
+<style type="text/css">
+
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:960px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+}
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;
+        }
+
+#navbar li a:hover{color:red;}	
+#baby{position:absolute; top:170px; left:40px;width:160px;}
+#logo{
+
+position:absolute; top:370px;left:50px;width:100px;}
+#know{position:absolute; left:71px; top:390px; font-family:arial;font-size:0.7em; z-index:99;color:#777575;}
+
+#footer{ border-top-style: dashed; position:absolute; top:924px; }
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 0px 55px 0px 35px;
+       font-family:serif;}
+
+
+
+#text{width:460px;
+      margin: 100px 15px 25px 15px;
+      position: relative; left: 235px; top: 0px;
+      text-align: left;
+      padding-top:20px;} 
+
+
+#quote{
+ position: absolute; left: 50px; top: 550px;}
+     
+.q{width:150px;
+      margin: 10px 15px 25px 0px;
+      position: absolute; top: 90px;
+      text-align: justify;
+      padding-top:20px;
+        font-family:helvetica;
+        line-height:17px;
+        font-size:0.9em;
+        font-family: "Times New Roman",Times,serif;}
+
+
+ 	
+#birth{width:180px;
+      margin: 10px 15px 25px 15px;
+      position: absolute; left: 745px; top: 120px;
+      text-align: justify;
+      padding-top:20px;
+        font-family:helvetica;
+        line-height:17px;
+        font-size:0.9em;
+        font-family: "Times New Roman",Times,serif;}
+#ps{color:black;font-family:arial;}
+
+</style>
+
+</head>
+
+<body>
+<div id="main">
+
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+
+
+
+<div id="text">
+<h1>Who We Are</h1>
+<p> Samatics Inc. is a collaboration of professionals from around the globe who all believed 
+in the tremendous benefits of cloning to the human race and together, fought to make human cloning a reality.
+Our staff has 25 years of experience in the field, working closely with The Roslin Institute in Edinburgh and The Yale School of Medicine.
+The research team is composed of reproductive biologists, biotechnologists, geneticists, synthetic chemists and imaging specialists.
+In 2020, the founder of facebook.com, Mark Zuckerberg, chose to invest 40 million dollars in our company.
+ <p>In 2025, Samatics.Inc received the prestigious Medical Research Award from the W. M. Keck Foundation for its successful cloning 
+of the first human baby in the history of mankind, named after his DNA parent, Mark Zuckerberg. </p>
+ </div>
+
+<img id="baby" src="babies1.png">
+<img id= "logo"  src="logo.png">
+<p id="know"> Know what you're getting. </p>
+
+
+
+<div id="quote">
+<img src="markbabyf.jpg"><p class="q">"I couldn't have thought of a more perfect way to make a baby. I believed in Samatics from the very beginning, and they did not prove me wrong." Mark Zuckerberg, of his newborn.</p> 
+</div>
+
+
+
+<div id="birth"><p id="ps"><b>Birth Statistic</b></p><p>Below is shown numbers of reported successful human clones in total and per year. The numbers are automatically updated when births are reported.</p> 
+
+<p>Total:</p> 
+<p>2306</p>
+<p>2033: 510</p>
+<p>2032: 360</p>
+<p>2031: 403</p>
+<p>2030: 320</p>
+<p>2029: 237</p>
+<p>2028: 190</p>
+<p>2027: 139</p>
+<p>2026: 92</p>
+<p>2025: 55</p>
+
+</div>
+
+
+
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li> <li>1.888.666.2234</li>  <li>info@samaticscloning.com</li> </ul>
+</div>
+</body>
+</html>
+

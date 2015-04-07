@@ -1,0 +1,229 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>cloning purchase</title>
+    <link rel="stylesheet" href="css/qunit.css" type="text/css" media="screen">  
+
+	<script>/*<![CDATA[*/!window.QUnit && document.write('<script src="inc/qunit.js"><\/script>')/*]]>*/</script>
+	<script src="http://swarm.simplecartjs.com/js/inject.js"></script>
+	<script>
+	if( QUnit.urlParams.lib && QUnit.urlParams.ver ){
+		document.write('<script src="https://ajax.googleapis.com/ajax/libs/'+ 
+					QUnit.urlParams.lib + '/' + 
+					QUnit.urlParams.ver + '/' + 
+					QUnit.urlParams.lib + '.js"><\/script>');
+	} else {
+		document.write('<script src="inc/jquery.1.6.1.min.js"><\/script>');
+	}
+	
+	if( QUnit.urlParams.commit ){
+		document.write('<script src="inc/get-raw-javascript.php?file=https://raw.github.com/wojodesign/simplecart-js/'+ QUnit.urlParams.commit +'/simpleCart.js"><\/script>');
+		document.write('<script src="inc/get-raw-javascript.php?file=https://raw.github.com/wojodesign/simplecart-js/'+ QUnit.urlParams.commit +'/test/test.core.js"><\/script>');
+	} else {
+		document.write('<script src="simpleCart.js"><\/script>');
+	}
+	/*]]>*/</script>
+
+	
+	<style >
+
+	 	.itemContainer{
+			width:100%;
+			float:left;
+		}
+
+		.itemContainer div{
+			float:left;
+			margin: 5px 20px 5px 20px ;
+		}
+
+		.itemContainer a{
+			text-decoration:none;
+		}
+
+		.cartHeaders{
+			width:100%;
+			float:left;
+		}
+
+		.cartHeaders div{
+			float:left;
+			margin: 5px 20px 5px 20px ;
+		}
+                .item-name, .item-price, .item-decrement, .item-quantity, .item-increment, .item-total, .item-remove {float:left; padding:2px 15px;}
+                .item-decrement a, .item-increment a {text-decoration:none; }
+                .item-decrement {padding-right:0px;padding-left:0px; }
+                .item-increment {padding-left:0px }
+                .item-price  {position:relative;left:-20px; color:brown }
+                .item-remove a {text-decoration:none; color:brown; font-size: 11px;}
+                .headerRow {width: 400px; display:none;}
+                .headerRow div {padding: 5px 50px 5px 50px; display:none;}
+                .headerRow.item-price  {padding-left:40px;}
+                .simpleCart_shelfItem {font-family: arial; font-size:12px;padding-top:18px;position:relative; left:45px;}
+                #cartItem_SCI-25 {position:relative; top: 50px; left:-320px;}
+                #cartItem_SCI-26{position:relative; top: 100px; left:-660px;}
+                #cartItem_SCI-27, #cartItem_SCI-28, #cartItem_SCI-29
+                
+                
+                
+                
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:755px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+
+
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;}
+
+#navbar li a:hover{color:red;}                  
+    
+
+#footer{ border-top-style: dashed; position:absolute; top:403px; left:-40px;width:1400px;color:#666666;}
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 1px 55px 0px 55px;
+       font-family:serif;color:#666666;}
+
+#text{width:630px;
+      margin: 10px 15px 25px 15px;
+      position: relative; left: 200px; top:180px;
+      text-align: left;
+      padding-top:20px; 
+      }
+
+#baby{position:absolute; 
+     top: 80px;
+      left: 50px; width:110px;}  
+#s{position:absolute; left:75px; top: 210px; width:60px;}
+
+
+#know{position:absolute; left:128px; top:297px; font-family:arial;font-size:0.55em; z-index:99; color:#777575;}
+
+
+#success{position:relative; top: 200px; background-color:#4E4444;  color:white; font-size:1.2em; text-align: center; border-radius: 20px; padding:10px 0px 10px 0px;letter-spacing:3px; margin-right:50px;
+margin-left:50px; font-family:serif;}
+
+h1{font-size:2.5em;}
+#intro{position:absolute; left:220px; top:110px;}
+
+#text span{padding-left:50px;}
+                
+	</style>
+
+
+</head>  
+<body style="height:730px;">  
+<div id="main" style="height:730px;">
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+<img id="baby" src="babies1.png" style="width:80px;" >
+<img id="s" src="logo.png" style="left:70px;width:60px;z-index:-1000; top:175px;">
+<div class="process" style="position:relative;left:300px;">
+<p style="height:45px;width:600px;color: #666666; font-family: arial;font-size:50px;font-weight:bold; position: relative;top:20px; left:-90px;">Our Products</p>
+</div!-- process -->
+
+<div id="shopping_cart"  style="position:relative; top:100px;left:-280px; width:650px;padding-left:20px;">
+<div id="border" style="position:absolute;left:; top:; height:330px; width:697px; border: 1px solid #C4C4C4; z-index:90000">
+<img src="kmartcart.jpg" style="position:relative; width:697px;height:30px;z-index:600;"></br>
+<div id="square"style="background-color:#F25C22; width:697px;height:30px; position:absolute;top:0px;z-index:1000;opacity:0.6; filter: alpha(opacity=40);"><p></p></div>
+<img src="grey.jpg" style="width:697px;height:70px;position:relative;top:-5px;">
+<div id ="text" style="font-weight:bold; font-size:12px; font-family:arial; position:absolute; left:-20px; top:40px; opacity:0.75;"><span>Item</span><span style="padding-left:240px">Arrival Method</span><span style="position:relative;left:18px;">Quantity</span></div>
+<span style="position:absolute;background-color: #666666;width:697px;height:1px;top:60px; opacity:0.5"></span>	
+<div id ="text" style="font-weight:bold; color:#A65F4D; font-size:12px; font-family:arial; position:absolute; left:-20px; top:10px; opacity:0.9s5;"><span>Return Policy</span><span style="padding-left:40px">Shipping & Delivery Options</span></div>
+<div class="simpleCart_shelfItem">
+			<span class="item_name">Standard Cloning Package</span>
+			<span class="item_price" style="color:brown">$187.95</span>
+			<span style="padding-left:65px;color: #666666"> Shipping - <b>FREE</b> </span>
+			<input type="hidden" class="item_shipping" value="0" />	
+			<input type="text" class="item_quantity" value="1" style="width:30px; position:relative; left:60px;"/>
+			<input type="button" class="item_add" value="add to cart" href="javascript:;" style="position:relative; left:90px;"/>
+
+</div>
+<div class="simpleCart_shelfItem">
+			<span class="item_name">The Complete Cloning Package</span>
+			<span class="item_price" style="color:brown">$150</span>
+			<span style="padding-left:55px;color: #666666"> Shipping - <b>FREE</b> </span>
+			<input type="hidden" class="item_shipping" value="0" />	
+			<input type="text" class="item_quantity" value="1" style="width:30px; position:relative; left:60px;"/>
+			<input type="button" class="item_add" value="add to cart" href="javascript:;" style="position:relative; left:90px;"/>
+
+</div>
+<div class="simpleCart_shelfItem">
+			<span class="item_name">SCNT+Surrogate Matching Package</span>
+			<span class="item_price" style="color:brown">$200</span>
+			<span style="padding-left:34px;color: #666666"> Shipping - <b>FREE</b> </span>
+			<input type="hidden" class="item_shipping" value="0" />	
+			<input type="text" class="item_quantity" value="1" style="width:30px; position:relative; left:60px;"/>
+			<input type="button" class="item_add" value="add to cart" href="javascript:;" style="position:relative; left:90px;"/>
+
+</div>
+<div class="simpleCart_shelfItem">
+			<span class="item_name">DNA Collection Kit</span>
+			<span class="item_price" style="color:brown">$200</span>
+			<span style="padding-left:131px;color: #666666"> Shipping - <b>FREE</b> </span>
+			<input type="hidden" class="item_shipping" value="0" />	
+			<input type="text" class="item_quantity" value="1" style="width:30px; position:relative; left:60px;"/>
+			<input type="button" class="item_add" value="add to cart" href="javascript:;" style="position:relative; left:90px;"/>
+
+</div>
+<p></p>
+<p></p>
+        <div style="width:510px;height:285px; position:relative; top:-250px;left:730px;font-family:arial;font-size:12px;border:2px solid #F25C22;">
+        <h2 style="position:relative; left:100px;color: #666666">Order Summary</h2>
+	<div class="simpleCart_items" >
+	</div>
+	<span style="position:relative; top:10px; float:left;font-weight:bold;background-color:#E0E0D1;width:490px;padding-left:20px;"> Your Total: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</span>
+	
+	 <img style="height:22px;position:absolute;top:-45px;left:0px; cursor: pointer; cursor: hand;" src="proceedtocheckout2.jpg" input type="button" class="simpleCart_checkout" value="checkout" href="javascript:;"/>
+        <img style="height:22px;position:absolute;left:20px;top:220px; cursor: pointer; cursor: hand;" src="proceedtocheckout2.jpg" input type="button" class="simpleCart_checkout" value="checkout" href="javascript:;"/>
+	<p>
+	<input type="button"class="simpleCart_empty" style="height:25px;position:absolute;left:230px;top:219px;padding:5px;font-size:9px;font-weight:bold; cursor: pointer; cursor: hand; color:white; background-color: #F25C22" value="EMPTY CART" href="javascript:;"/>
+	</p>
+	</div!----inside-ordersummary---->
+
+</div> <!------------------------------shopping-cart------------------------------>
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li>   <li>1.888.666.2234</li>  <li> info@samaticscloning.com </li></ul>
+</div>  <!----------------------------main-------------------------------------->
+</body>  
+</html>

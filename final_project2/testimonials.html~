@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>testimonials</title>
+<style type="text/css">
+
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:1440px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+    
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;
+        }
+
+
+#navbar li a:hover{color:red;}	
+
+#footer{ border-top-style: dashed; position:absolute; top:1400px; }
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 0px 55px 0px 35px;
+       font-family:serif;}
+
+#text{width:530px;
+      margin: 10px 15px 25px 15px;
+      position: relative; left: 400px; top: 70px;
+      text-align: left;
+      padding-top:20px;
+      }
+#couple {position:relative;  left: -530px; top: -950px; width:350px; }
+#regina{position:relative;  top: -220px; }
+
+#success{position:relative; top:-70px; background-color:#4E4444;  color:white; font-size:1.2em; text-align: center; 
+border-radius: 20px; padding:10px 0px 10px 0px;letter-spacing:3px; margin-right:50px;margin-left:50px;font-family: serif;}
+
+#quote{
+ position: absolute; left: -350px; top: 620px;}
+     
+.q{width:150px;
+      margin: 10px 15px 25px 0px;
+      position: absolute; top: 90px;
+      text-align: justify;
+      padding-top:20px;
+        font-family:helvetica;
+        line-height:17px;
+        font-size:0.9em;
+        font-family: "Times New Roman",Times,serif;}
+
+
+</style>
+</head>
+<body>
+
+<div id="main">
+
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+
+<div id="text">
+<h1>Customer Testimonials</h1>
+<p>"We never dreamed we could ever have our own family. Samatics changed everything. Now we have two lovely boys, each the spitting image of one of us. Thank you!"</p>
+Jason and Stewart, January 2032
+
+<p>"Very fast service. No complaints."</p>
+Susan, January 2032
+
+<p>"I was very pleased with the speed with which the procedure was conducted and the way each step was explained to me."</p>
+Wesley, February 2032
+
+<p>"Excellent experience, easy instructions. Thank you."</p>
+Karen, February 2032
+
+<p>"This was easy! Definitely helped make a stressful process much less so."</p>
+Leslie, March 2032
+
+<p>"A great experience with a wonderful happy ending!!"</p>
+James, March 2031
+
+<p>"Thank you very much for making your services so readily available."</p>
+Candy, March 2031
+
+<p>"I would highly advise anyone who needed your services to take advantage of your professional and timely company."</p>
+Susie, March 2031
+
+<p>"After two days of reading Samatics website and speaking with an agent who suggested the SCNT cloning, I knew I would be 100% satisfied. I am and thanks!"</p>
+Elizabeth, April 2031
+
+<p>"Thank you for the efficient and personal service. My husband and I can now have the child we always wanted without getting a third party involved."</p> <span id="regina">Regina, April 2032</span> 
+
+
+
+
+<div id="quote">
+<img src="markbabyf.jpg"><p class="q">"I couldn't have thought of a more perfect way to make a baby. I believed in Samatics from the very beginning, and they did not prove me wrong." Mark Zuckerberg, of his newborn.</p> 
+</div>
+
+
+<img id="couple" src="gaycouple.jpg">
+
+</div>
+
+<div id="success"> Success Or Your Money Back Guaranteed. Call Toll Free 1.888.666.2234 Now </div>
+
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li>   <li>1.888.666.2234</li>  <li> info@samaticscloning.com </li></ul>
+
+
+</div>
+</body>
+</html>
+
