@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>why cloning</title>
+
+<style type="text/css">
+
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:2310px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+
+
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;}
+
+#navbar li a:hover{color:red;}
+    
+
+#footer{ border-top-style: dashed; position:absolute; top:2270px; }
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 1px 55px 0px 35px;
+       font-family:serif;}
+
+#text{width:630px;
+      margin: 10px 15px 25px 15px;
+      position: relative; left: 200px; top:180px;
+      text-align: left;
+      padding-top:20px; 
+      }
+
+#baby{position:absolute; 
+     top: 140px;
+      left: 45px; width:130px;}  
+#s{position:absolute; left:75px; top: 300px; width:68px;}
+
+
+#know{position:absolute; left:128px; top:297px; font-family:arial;font-size:0.55em; z-index:99; color:#777575;}
+
+
+#success{position:relative; top: 200px; background-color:#4E4444;  color:white; font-size:1.2em; text-align: center; border-radius: 20px; padding:10px 0px 10px 0px;letter-spacing:3px; margin-right:50px;
+margin-left:50px; font-family:serif;}
+
+h1{font-size:2.5em;}
+#intro{position:absolute; left:220px; top:110px;}
+
+</style>
+
+</head>
+<body>
+
+
+<div id="main">
+
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+
+
+<div id="intro">
+<h1>Why Cloning?</h1>
+The advantages of cloning are countless. Here is a list that is far from complete: </div>
+
+<div id="text">
+
+<h2>To Be A Better Parent</h2>
+ Human cloning can improve the parent-child relationship. Our talents and desires are genetic, developmental, and environmental.  We would have a head start on understanding the genetic component of a cloned child. Raising a clone would be like having a child with an instruction manual.  You would have a head start on the needs and talents of your child. 
+<h2>Reversing the Past </h2>
+Do you have a loved one suffering from a non-curable illness? With a painless and quick DNA collecting technique, we guarantee the perfect cloning of your loved one's DNA into a new future, where you will see it working to form a whole new individual with identical features and a similar personality to your loved one. 
+<h2>The Life That Was Meant to Be Yours</h2>
+ A lot of people suffered some physical or mental handicap and feel robbed of the opportunities they should have had in life. With your clone, you can get a fresh start. 
+<h2>A Better Sense of Identity</h2> 
+If we had some information about ourselves, perhaps we could sooner or better discovery who we are.  A clone would have access to a tremendous amount of information about his or her parent that could greatly help in understanding one's psyche and physical attributes.  All of this information could provide a better sense of identity.
+<h2>Special Relationships</h2>
+While many people go through their lives never having a special relationship with another person, there are stories of twins in which they are so close they are perhaps psychically connected.  Some twins describe their twin relationship as more wonderful and meaningful any other relationship in their lives.
+Live on through a later-born twin - Some childless people feel that by being cloned by their later-born twin would help them or their DNA to live on in the same sense that people who have children live on. 
+<h2>Replacing Damaged Organs</h2>
+       There has been a breakthrough with human stem cells.  Embryonic stem cells can be grown to produce organs or tissues to repair or replace damaged ones.  Skin for burn victims, brain cells for the brain damaged, spinal cord cells for quadriplegics and paraplegics, hearts, lungs, livers, and kidneys could be produced.  By combining this technology with human cloning technology it is now possible to produce needed tissue for suffering people that will be free of rejection by their immune systems.  Conditions such as Alzheimer's disease, Parkinson's disease, diabetes, heart failure, degenerative joint disease, and other problems are currently being made curable. 
+    <h2>Infertility</h2>
+With cloning, infertile couples can have children.  Despite getting a fair amount of publicity in the news current treatments for infertility, in terms of percentages, are not very successful.  One estimate is that current infertility treatments are less than 10 percent successful.  Couples go through physically and emotionally painful procedures for a small chance of having children.  Many couples run out of time and money without successfully having children.  Human cloning is now making it possible for many more infertile couples to have children than ever before possible.
+    <h2>Down's Syndrome</h2>
+ Those women at high risk for Down's syndrome can avoid that risk by cloning.
+    <h2>Tay-Sachs Disease</h2>
+This is an autosomal recessive genetic disorder can be prevented by using cloning to ensure that a child does not express the gene for the disorder
+    <h2>Liver Failure</h2>
+We are able to clone livers for liver transplants
+   <h2> Kidney failure </h2>
+ We are able to clone kidneys for kidney transplants
+    <h2> Leukemia. </h2>
+ We are able to clone the bone marrow for children and adults suffering from leukemia.  .
+<h2>Environmental Protection</h2> 
+Through the research leading up to human cloning we have perfected the technology to clone animals, and thus forever preserve endangered species.
+
+</div>
+
+
+<img id="baby" src="babies1.png">
+<img id="s" src="logo.png">
+
+
+<div id="success"> Success Or Your Money Back Guaranteed. Call Toll Free 1.888.666.2234 Now </div>
+
+
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li>   <li>1.888.666.2234</li>  <li> info@samaticscloning.com </li></ul>
+
+
+</div>
+</body>
+</html>
+

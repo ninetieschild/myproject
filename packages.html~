@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>cloning purchase</title>
+<script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js"></script>
+<script src="simpleCart.min.js"></script>
+<script src="simpleCart.js"></script>
+<script>
+    simpleCart({
+        checkout: { 
+            type: "PayPal" , 
+            email: "you@yours.com" 
+        }
+    }); 
+</script>
+<style type="text/css">
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:755px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+
+
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;}
+
+#navbar li a:hover{color:red;}                  
+    
+
+#footer{ border-top-style: dashed; position:absolute; top:383px; left:-19px;width:950px;}
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 1px 55px 0px 35px;
+       font-family:serif;}
+
+#text{width:630px;
+      margin: 10px 15px 25px 15px;
+      position: relative; left: 200px; top:180px;
+      text-align: left;
+      padding-top:20px; 
+      }
+
+#baby{position:absolute; 
+     top: 80px;
+      left: 50px; width:110px;}  
+#s{position:absolute; left:75px; top: 210px; width:60px;}
+
+
+#know{position:absolute; left:128px; top:297px; font-family:arial;font-size:0.55em; z-index:99; color:#777575;}
+
+
+#success{position:relative; top: 200px; background-color:#4E4444;  color:white; font-size:1.2em; text-align: center; border-radius: 20px; padding:10px 0px 10px 0px;letter-spacing:3px; margin-right:50px;
+margin-left:50px; font-family:serif;}
+
+h1{font-size:2.5em;}
+#intro{position:absolute; left:220px; top:110px;}
+
+</style>
+
+</head>
+<body>
+<div id="main">
+
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+<img id="baby" src="babies1.png">
+<img id="s" src="logo.png">
+<div class="process" style="position:relative; top:100px;left:300px;">
+<img src="cartarrowsnew.jpg" style="height:45px;width:600px;">
+</div!-- process -->
+<div id="shopping_cart"  style="position:relative; top:150px;left:-300px; width:650px;padding-left:20px;">
+<img src="kmartcart.jpg" style="position:relative; left:3px; width:696px;height:30px;z-index:600"></br><img src="carttop2.jpg" style="width:700px;height:70px;position:relative;top:-5px;">
+
+<div class="product_in_cart" style="border-top:none;
+    clear: both;
+    padding-top:15px;
+    position: relative;">
+  
+<div style="position:relative;z-index:200;left:10px;color:black;">
+           <div class="simpleCart_shelfItem"> 
+         <span class="item_name">Standard Cloning Package</span>  
+         <input type="text" value="1" class="item_Quantity"> <span class="item_price">$35.99</span>
+         <a class="item_add" href="javascript:;"> Add to Cart </a>
+         </div!--simpleCart_shelfItem----> 
+         <p></p>
+         <div class="simpleCart_shelfItem">
+         <span class="item_name">The Complete Cloning Package</span>  
+         <input type="text" value="1" class="item_Quantity"> <span class="item_price">$35.99</span>
+         <a class="item_add" href="javascript:;"> Add to Cart </a>
+         </div!--simpleCart_shelfItem----> 
+        <div class="simpleCart_shelfItem">
+         <span class="item_name">SCNT+Surrogate Matching Package</span>  
+         <input type="text" value="1" class="item_Quantity"> <span class="item_price">$35.99</span>
+         <a class="item_add" href="javascript:;"> Add to Cart </a>
+         </div!--simpleCart_shelfItem---->
+         <div class="simpleCart_shelfItem">
+         <h2 class="item_name">DNA Collection Kit</h2>  
+         <input type="text" value="1" class="item_Quantity"> <span class="item_price">$35.99</span>
+         <a class="item_add" href="javascript:;"> Add to Cart </a>
+         </div!--simpleCart_shelfItem----> </option> 
+         
+         
+          <option>Host Egg Collection Kit</option>
+ 
+  <span style="font-size:13px; position:relative; left:100px; text-decoraion:none;">Shipping-<b>FREE</b></span>       
+  <form action="" style="position:relative;left:250px;z-index:200">
+<input type="text" size="3" value="1" style="position:relative; left:230px;top:-25px;">
+<input class="button" style="position:relative; left:234px; width:70px; font-size:11px; top:-25px;z-index:900;" type="submit" value="add to cart" name="my-add-button">
+</form>
+<input type="text" size="7" value="$15,499" style="position:relative; left:620px;top:-50px; font-size:13px;">
+<FORM METHOD="LINK" ACTION="packages2.html"><input type="submit" style="position:absolute; left:30px; top:50px; z-index:950; margin-right:50px;" id="most" value="Add Different Item"></form>
+<p style="position:relative; left:480px;top:-55px; font-size:10px; color:#B80000
+;line-height:5px;">remove</p>
+<img src="proceedtocheckout.png" style=" height:550px;position:absolute;top:-68px;left:-130px;">
+</div!-- product -->
+</div!----shopping_cart-->
+<img src="proceedtocheckout.png" style=" height:550px;position:relative;top:-410px;left:90px;">
+<div class="total" style="border:1px solid #C4C4C4;width:175px;position: relative; left:720px;top:-750px; padding:5px 10px 20px 20px;z-index:200;">
+<h3 style="text-align:center;color:black;">Order Summary</h3>
+<div style="font-size:12px;">
+<span style="position:relative; left:-15px; font-size:11px;">Merchandise Subtotal</span>   <span style="position:relative; left:5px; font-size:11px;">$15,499 USD</span>
+<span style="position:relative; left:-15px; font-size:11px;color:#D11919;">Standard Shipping</span>   <span style="position:relative; left:40px; font-size:11px;color:red"> FREE</span>
+</div>
+<p style="position:relative; left:-15px; font-size:11px;">Enter zipcode to calculate sales tax:</p><form>
+<input type="text"style="position:relative; left:-15px; top:-10px;font-size:11px;" name="zipcode">
+<button style="color:#D11919;font-size:11px;position:relative;left:-16px;top:-10px;">GO</button></form>
+<p id="grey" style="background-color:#E0E0D1; color:black; font-size:12px;padding:none;padding-left:5px;margin:none; position:relative;left:-20px;height:20px;width:200px;"><b>Estimated Pre-tax Total:
+$15,499</b></p>
+</div>
+<a href="forcustomers.html"><img alt="back" style="width:60px;" src="back_arrow1.png"></a>
+<div id="border" style="position:absolute; left:22px; top:0px;height:255px; width:696px; border:1px solid #C4C4C4;"></div!-- border -->
+<FORM METHOD="LINK" ACTION="forcustomers.html" style="text-decoration:none;position:relative; top:280px;font-size:12px;z-index:400;">
+<INPUT TYPE="submit" style="color:white;width:190px; padding:4px; background-color:#F25C22; border-radius:5px;" VALUE="Return to Product Description"></form>
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li>   <li>1.888.666.2234</li>  <li> info@samaticscloning.com </li></ul>
+<h3 style="position:absolute;top:-20px; left:15px; color:white; z-index:800;">Shopping Cart</h3>
+
+</div>
+</body>
+</html>

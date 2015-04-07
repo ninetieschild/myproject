@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>about cloning</title>
+<style type="text/css">
+
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height:1618px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+    
+}
+
+
+ #navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;
+        }
+
+#navbar li a:hover{color:red;}
+
+
+#baby{position:absolute; top:150px; left:80px;}
+#logo{position:absolute; top:400px;left:110px;width:95px;}
+#know{position:absolute; left:130px; top:417px; font-family:arial;font-size:0.8em; z-index:99;color:#777575;}
+#lab{position:absolute; top:1100px; left:25px;}
+#diagram{position:absolute; top:570px; left: 2px;width:310px;}
+
+#text { width:550px; height: 2000px;
+      margin: 10px auto; 25px;
+      position: relative; left: 150px; top: 90px;
+      text-align: left;
+      }
+
+#footer{ border-top-style: dashed; position:absolute; top:1582px; font-family:serif;}
+#footer li {
+	list-style: none;
+	float: left; 
+        padding: 0px 55px 0px 35px;}
+
+
+</style>	
+</head>
+<body>
+
+<div id="main">
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+
+
+<img id="baby" src="babies1.png">
+
+<img id="lab"  src="dieter-scnt.jpg">
+
+
+<img id="logo" src="logo.png">
+<p id="know">Know what you're getting.</p>
+
+
+
+<div id="text">
+
+
+ <h1>About Cloning</h1>
+
+</br>
+
+
+<h2>History</h2>
+The process of cloning enables the creation of a new multicellular organism, genetically identical to another. This form of cloning is an asexual method of reproduction, where fertilization or inter-gamete contact does not take place. Asexual reproduction is a naturally occurring phenomenon in many species, including most plants and some insects. Cloning has been common practice in the horticultural world for hundreds of years. Scientists have made some great advances in animal cloning in the 1990's and early 2000's, including the asexual reproduction of sheep and cows. Dolly (1996-2003), a Finn-Dorset ewe, was the first mammal to have been successfully cloned from an adult cell.  Dolly was a significant milestone because her birth showed that genetic material from a specific adult cell, programmed to express only a distinct subset of its genes, can be reprogrammed to grow an entirely new organism.\par
+Mark Zuckerberg , named after his DNA parent, is the first human to have been successfully cloned from an adult cell in 2025.
+<h2>Cloning Procedure (SCNT)</h2>
+Somatic-cell nuclear transfer (SCNT) is a laboratory technique for creating a clone embryo with a donor nucleus. The cell nucleus from an adult (differentiated) cell is transferred into an unfertilised oocyte (developing egg cell) that has had its nucleus removed. The hybrid cell is then stimulated to divide by an electric shock, and when it develops into a blastocyst it is implanted in a surrogate mother, where it grows as an embryo until its birth, in the exact same way following sexual fertilisation. We are still far from having the technology to mimic the biochemical environment of the womb, therefore the blastocyst still requires the body of a healthy female for its development into a human baby. Therefore, a cloned baby can have 3 mothers, or one father and two mothers - The person to be cloned, an egg donor, and the surrogate mother. It can also have only one mother that would provide her egg, her DNA to be cloned, and carry the embryo in her womb.
+<h2>The New Technology</h2>
+Scientists speculated that Dolly's death in 2003 was related to the shortening of telomeres, DNA-protein complexes that protect the end of linear chromosomes, acting as a living "time-clock". Since then, Geron and its collaborators have cloned telomerase, the cellular immortalizing enzyme which extends the cells' healthy replicative lifespan by preventing telomere erosion. As a result, nowadays cloned mammals, including humans, have a slightly higher life expectancy than the organisms of which they are duplicates.
+Cloning Dolly the sheep was done at a time when the process of cell reprogramming was poorly understood and had a low success rate per fertilized egg; she was born after 277 eggs were used to create 29 embryos, which only produced three lambs at birth, only one of which lived. With our new understanding of the biochemistry involved in reprogramming the differentiated somatic cell nucleus, as well as activating the recipient egg, lab procedures have greatly improved to reduce the stress on the egg and nucleus, resulting in an efficiency rate of nearly 3.5%, or one surviving offspring per 30 eggs!</div>
+
+
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li> <li>1.888.737.2234</li>  <li>info@samaticscloning.com</li> </ul>
+
+
+</div>
+</body>
+</html>
+

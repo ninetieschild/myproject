@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>information for our customers</title>
+<script src="simpleCart.js"></script>
+<script>
+    simpleCart({
+        checkout: { 
+            type: "PayPal" , 
+            email: "you@yours.com" 
+        }
+    }); 
+</script>
+<style type="text/css">
+
+#main {
+    background: none repeat scroll 0 0 white;
+    border: 2px solid #F25C22;
+    color: #666666;
+    margin: 10px auto 25px;
+    overflow: hidden;
+    width: 970px; 
+    height: 2980px;
+    font-family:arial;
+    line-height:1.5em;
+    position:relative;
+    top: 1px;
+    
+}
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+        position:relative;
+        left: 50px;
+        top:30px;}
+#navbar li {
+	list-style: none;
+	float: left; }
+#navbar li a {
+	display: block;
+	padding: 3px 25px;
+	background-color: white;
+        background-image: url("square2.jpg");
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding-left: 12px;
+        font-size: 12px;
+	color: black;
+	text-decoration: none;
+        text-transform: uppercase;
+         font-family: arial;
+         border: 0 solid;
+        }
+
+#navbar li a:hover{color:red;}
+
+
+ .nav{
+list-style-type:none;
+margin:0;
+padding:10px;
+} 
+.nav a
+{
+display:block;
+width:220px;
+
+}
+	
+#lab{position:absolute; top:150px;width:345px;left:35px;}
+
+#footer{ border-top-style: dashed; position:absolute; top:2940px; }
+#footer li{
+	list-style: none;
+	float: left; 
+        padding: 0px 55px 0px 35px;
+       font-family:serif;}
+
+#text{width:630px;
+      margin: 10px 15px 25px 15px;
+      position: relative; left: 200px; top: 350px;
+      text-align: left;
+      padding-top:20px;
+      }
+#columnleft {
+    position:absolute;
+    top:2400px; left: 180px;
+    width: 295px;
+}
+#columnright{position:absolute;top:2400px; left: 479px;
+    width: 295px;
+}
+
+.box1{
+    background-image: url("stripe.jpg");
+    background-repeat: repeat-x;
+    width: 293px;
+    border: 2px solid #666666;
+    border-style: outset;
+    border-radius:5px;
+    }
+    .box1 a:link{text-decoration:none; color:#666666;}
+    .box1 a:visited{text-decoration:none; color:#666666;}
+.box2{
+    background-image: url("stripe4.jpg");
+    background-repeat: repeat-x;
+    width: 290px;
+    border: 2px solid #666666;
+    border-style: outset;
+    border-radius:5px;
+}
+.box2 a:link{text-decoration:none; color:#666666;}
+.box2 a:visited{text-decoration:none; color:#666666;}
+.boxcontent {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#special{
+color:#F25C22; text-align:center; font-style:bold;}
+
+#title{position:absolute; left:400px; top:130px;}
+
+</style>
+
+</head>
+<body>
+<div id="main">
+<ul id="navbar">
+  <li><a href="index.html">home</a></li>
+  <li><a href="whycloning.html">why cloning</a></li>
+  <li><a href="cloningprocedure.html">cloning procedure explained</a></li>
+  <li><a href="forcustomers.html">information for customers</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="testimonials.html">testimonials</a></li>
+
+</ul>
+
+
+<div id="title">
+<h1>Samatics Cloning Services</h1>
+<ul class="nav">
+<li><a href="">General</a></li>
+<li><a href="#same">Same-Sex Couples</a></li>
+<li><a href="#opposite">Opposite-Sex Couples</a></li>
+<li><a href="#ill">Cloning for the Ill</a></li>
+</ul>
+</div>
+
+<div id="text">
+
+<p>At Samatics, we believe that the steps to human cloning should be simple, accurate, affordable, and convenient. For these reasons, we offer home DNA and host egg collection kits , offering affordable and accurate results. Convenience is an important part of our procedures. By offering free overnight return shipping anywhere in the Contiguous USA for AABB-accredited legal DNA collection kits, we hope to make this experience a simple as possible for you. Please explore our site today to learn more about our DNA testing procedures and dedication to our clients.</p>
+<p>Order your DNA collection or host egg collection kit <a href="packages.html">here</a> or by calling our toll free number 1 (866) 833-6895. As an added bonus, you will receive a free home DNA collection kit if paid for at the time of ordering.</p>
+<h2>Simple</h2>
+<p>Collecting DNA samples is painless and as easy as swabbing the inside of the cheeks of family members with a special, Q-Tip-like swab. DNA Collection Kits can be sent directly to your home or office.</p>
+<h2>Accurate</h2>
+<p>Our labs and staff at Samatics offer the highest quality, most efficient cloning procedures available in the industry. </p>
+<h2>Affordable</h2>
+<p>Samatics offers the advanced power of DNA cloning technology at affordable prices. With our cloning labs, you can achieve peace of mind at an affordable price.
+Explore our cloning catalog and choose the services that suit your needs or give us a call toll free at 1.888.666.2234 today.</p>
+
+<h2><a name="same">Same Sex Couples</a></h2>
+<p>With Samatics' advanced cloning techniques, same sex couples now have the option of raising a child that is truly their own, made up of their own DNA and no others'. With <b>female couples</b> , one of the women provides her DNA for cloning and an unfertilised egg, while her partner will be the surrogate mother. The egg can also be donated from the surrogate mother instead, hereby creating a baby that contains genes from both parents (as the mtDNA is contributed only from the host egg). Thus, the two partner are not only the legal but also the biological parents. </p>
+<p>With <b>male couples</b> , one of the men provides his DNA for cloning, and the child will be genetically nearly identical to him.  The egg donor and surrogate mother could be a family member or a close friend. Otherwise, you will be introduced to our surrogate mother and egg donor finder service, which provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background. For male couples, purchasing <a href="#complete">The Complete Cloning Package</a> is recommended. </p>
+<h2><a name="opposite">Opposite-Sex Couples</a></h2>
+<p>Opposite-sex couples may choose to have a cloned baby for various reasons. A common scenario is when one or both partners is known to be the carrier of a serious genetic disease or syndrome (Down syndrome and Tay-Sachs disease, to name a few). Samatics Inc. gives these couples the option of having a baby that is entirely theirs, and is assured to not express the damaged genes, as it carries the exact same genetic component as one of his parents. (The mtDNA is not known to affect any inherited genetic disorders.)</p>
+<p>Despite getting a fair amount of publicity in the news, current treatments for infertility, in terms of percentages, are not very successful.  One estimate is that current infertility treatments are less than 10 percent successful.  Couples go through physically and emotionally painful procedures for a small chance of having children. Samatics gives women with inferility issues the chance to have a baby of their own, as the egg is fertilised in vitro and would be introduced into their bodies only later, at the blastocyte stage, or into another surrogate parent. In any case, the cloned baby will be genetically nearly identical to the infertile mother. For women who cannot or prefer not to conceive/bear, we recommend getting the <a href="#scnt">SCNT+Surrogate Matching Package.</a></p>
+<p><b>For fertile females and opposite-sex couples</b> who don't require our egg donor and surrogate services, the total cost of the cloning procedure covers collection of the DNA sample and host egg, preperational hormonal treatment prior to egg collection, SRNC procedure, and pregnancy follow-up.This <a href="packages.html">Standard Cloning Package</a> is offered at an affordable price of only $15,499! <a href="packages.html">Purchase now.</a></p>
+<h2><a name="ill">Cloning for the Ill</a></h2>
+<p>Our labs have the technology to collect and freeze your DNA to preserve your future cloning potential. Some may want to take comfort in the fact that after their death, thier DNA will live on in the form of a genetically identical person. Sometimes, in the case of premature or tragic death, a family member or a loved one may be interested in raising the cloned baby of the deceased or soon-to-be deceased.</p>
+
+</div>
+
+<img id="lab" src="research.jpg">
+
+
+<div id="columnleft">
+<div class="box1">
+<div class="boxcontent">
+<a name="scnt"><a href="packages.html"><b>SCNT+Surrogate Matching Package</b></a></a>
+<p id="special"><b>SPECIAL!!</b></p>
+<a href="packages.html"><p>For only $20,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also guide you through the process of selecting the perfect surrogate mother for your child. Our surrogate mother finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
+</div>
+</div>
+</div>
+<div id="columnright">
+<div class="box2">
+<div class="boxcontent">
+<a name="complete"><a href="packages.html"><b>The Complete Coning Package</b></a></a>
+<p id="special"><b>SPECIAL!!</b></p>
+<p><a href="packages.html">For only $25,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also provide the host egg and the surrogate mother, through a carefully guided process of selection. Our surrogate mother and egg donor finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
+</div>
+</div>
+</div>
+
+<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li> <li>1.888.666.2234</li>  <li>info@samaticscloning.com</li> </ul>
+
+</div> 
+
+</body>
+</html>
+
