@@ -66,6 +66,7 @@ padding:10px;
 {
 display:block;
 width:220px;
+text-decoration:none;
 
 }
 	
@@ -137,6 +138,7 @@ color:#F25C22; text-align:center; font-style:bold;}
   <li><a href="testimonials.html">testimonials</a></li>
 
 </ul>
+<a href="simplecart_packages.html"><img style="width:25px; z-index:1800; position:relative; left:39px;top:15px;" src="shopping.png"></a>
 
 
 <div id="title">
@@ -152,7 +154,7 @@ color:#F25C22; text-align:center; font-style:bold;}
 <div id="text">
 
 <p>At Samatics, we believe that the steps to human cloning should be simple, accurate, affordable, and convenient. For these reasons, we offer home DNA and host egg collection kits , offering affordable and accurate results. Convenience is an important part of our procedures. By offering free overnight return shipping anywhere in the Contiguous USA for AABB-accredited legal DNA collection kits, we hope to make this experience a simple as possible for you. Please explore our site today to learn more about our DNA testing procedures and dedication to our clients.</p>
-<p>Order your DNA collection or host egg collection kit <a href="packages.html">here</a> or by calling our toll free number 1 (866) 833-6895. As an added bonus, you will receive a free home DNA collection kit if paid for at the time of ordering.</p>
+<p>Order your DNA collection or host egg collection kit <a href="simplecart_packages.html" style="text-decoration:none;">here</a> or by calling our toll free number 1 (866) 833-6895. As an added bonus, you will receive a free home DNA collection kit if paid for at the time of ordering.</p>
 <h2>Simple</h2>
 <p>Collecting DNA samples is painless and as easy as swabbing the inside of the cheeks of family members with a special, Q-Tip-like swab. DNA Collection Kits can be sent directly to your home or office.</p>
 <h2>Accurate</h2>
@@ -163,11 +165,11 @@ Explore our cloning catalog and choose the services that suit your needs or give
 
 <h2><a name="same">Same Sex Couples</a></h2>
 <p>With Samatics' advanced cloning techniques, same sex couples now have the option of raising a child that is truly their own, made up of their own DNA and no others'. With <b>female couples</b> , one of the women provides her DNA for cloning and an unfertilised egg, while her partner will be the surrogate mother. The egg can also be donated from the surrogate mother instead, hereby creating a baby that contains genes from both parents (as the mtDNA is contributed only from the host egg). Thus, the two partner are not only the legal but also the biological parents. </p>
-<p>With <b>male couples</b> , one of the men provides his DNA for cloning, and the child will be genetically nearly identical to him.  The egg donor and surrogate mother could be a family member or a close friend. Otherwise, you will be introduced to our surrogate mother and egg donor finder service, which provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background. For male couples, purchasing <a href="#complete">The Complete Cloning Package</a> is recommended. </p>
+<p>With <b>male couples</b> , one of the men provides his DNA for cloning, and the child will be genetically nearly identical to him.  The egg donor and surrogate mother could be a family member or a close friend. Otherwise, you will be introduced to our surrogate mother and egg donor finder service, which provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background. For male couples, purchasing <a href="#complete" style="text-decoration:none;">The Complete Cloning Package</a> is recommended. </p>
 <h2><a name="opposite">Opposite-Sex Couples</a></h2>
 <p>Opposite-sex couples may choose to have a cloned baby for various reasons. A common scenario is when one or both partners is known to be the carrier of a serious genetic disease or syndrome (Down syndrome and Tay-Sachs disease, to name a few). Samatics Inc. gives these couples the option of having a baby that is entirely theirs, and is assured to not express the damaged genes, as it carries the exact same genetic component as one of his parents. (The mtDNA is not known to affect any inherited genetic disorders.)</p>
-<p>Despite getting a fair amount of publicity in the news, current treatments for infertility, in terms of percentages, are not very successful.  One estimate is that current infertility treatments are less than 10 percent successful.  Couples go through physically and emotionally painful procedures for a small chance of having children. Samatics gives women with inferility issues the chance to have a baby of their own, as the egg is fertilised in vitro and would be introduced into their bodies only later, at the blastocyte stage, or into another surrogate parent. In any case, the cloned baby will be genetically nearly identical to the infertile mother. For women who cannot or prefer not to conceive/bear, we recommend getting the <a href="#scnt">SCNT+Surrogate Matching Package.</a></p>
-<p><b>For fertile females and opposite-sex couples</b> who don't require our egg donor and surrogate services, the total cost of the cloning procedure covers collection of the DNA sample and host egg, preperational hormonal treatment prior to egg collection, SRNC procedure, and pregnancy follow-up.This <a href="packages.html">Standard Cloning Package</a> is offered at an affordable price of only $15,499! <a href="packages.html">Purchase now.</a></p>
+<p>Despite getting a fair amount of publicity in the news, current treatments for infertility, in terms of percentages, are not very successful.  One estimate is that current infertility treatments are less than 10 percent successful.  Couples go through physically and emotionally painful procedures for a small chance of having children. Samatics gives women with inferility issues the chance to have a baby of their own, as the egg is fertilised in vitro and would be introduced into their bodies only later, at the blastocyte stage, or into another surrogate parent. In any case, the cloned baby will be genetically nearly identical to the infertile mother. For women who cannot or prefer not to conceive/bear, we recommend getting the <a href="#scnt" style="text-decoration:none;">SCNT+Surrogate Matching Package.</a></p>
+<p><b>For fertile females and opposite-sex couples</b> who don't require our egg donor and surrogate services, the total cost of the cloning procedure covers collection of the DNA sample and host egg, preperational hormonal treatment prior to egg collection, SRNC procedure, and pregnancy follow-up.This <a href="simplecart_packages.html" style="text-decoration:none;">Standard Cloning Package</a> is offered at an affordable price of only $15,499! <a href="simplecart_packages.html" style="text-decoration:none;">Purchase now.</a></p>
 <h2><a name="ill">Cloning for the Ill</a></h2>
 <p>Our labs have the technology to collect and freeze your DNA to preserve your future cloning potential. Some may want to take comfort in the fact that after their death, thier DNA will live on in the form of a genetically identical person. Sometimes, in the case of premature or tragic death, a family member or a loved one may be interested in raising the cloned baby of the deceased or soon-to-be deceased.</p>
 
@@ -179,18 +181,18 @@ Explore our cloning catalog and choose the services that suit your needs or give
 <div id="columnleft">
 <div class="box1">
 <div class="boxcontent">
-<a name="scnt"><a href="packages.html"><b>SCNT+Surrogate Matching Package</b></a></a>
+<a name="scnt"><a href="simplecart_packages.html"><b>SCNT+Surrogate Matching Package</b></a></a>
 <p id="special"><b>SPECIAL!!</b></p>
-<a href="packages.html"><p>For only $20,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also guide you through the process of selecting the perfect surrogate mother for your child. Our surrogate mother finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
+<a href="simplecart_packages.html"><p>For only $20,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also guide you through the process of selecting the perfect surrogate mother for your child. Our surrogate mother finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
 </div>
 </div>
 </div>
 <div id="columnright">
 <div class="box2">
 <div class="boxcontent">
-<a name="complete"><a href="packages.html"><b>The Complete Coning Package</b></a></a>
+<a name="complete"><a href="simplecart_packages.html"><b>The Complete Coning Package</b></a></a>
 <p id="special"><b>SPECIAL!!</b></p>
-<p><a href="packages.html">For only $25,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also provide the host egg and the surrogate mother, through a carefully guided process of selection. Our surrogate mother and egg donor finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
+<p><a href="simplecart_packages.html">For only $25,099 we will not only create the in-vitro conditions for a perfect genetic clone, but also provide the host egg and the surrogate mother, through a carefully guided process of selection. Our surrogate mother and egg donor finder service provides reliable, comprehensive background information about each and every one of our candidates' genetic and educational background.</p></a>
 </div>
 </div>
 </div>

@@ -63,7 +63,7 @@
 
 #baby{position:absolute; top:150px; left:80px;}
 #logo{position:absolute; top:400px;left:110px;width:95px;}
-#know{position:absolute; left:130px; top:417px; font-family:arial;font-size:0.8em; z-index:99;color:#777575;}
+#know{position:absolute; left:130px; top:417px; font-family:arial;font-size:0.8em;font-weight:bold; z-index:99;color:#777575;}
 #lab{position:absolute; top:1100px; left:25px;}
 #diagram{position:absolute; top:570px; left: 2px;width:310px;}
 
@@ -94,6 +94,7 @@
   <li><a href="testimonials.html">testimonials</a></li>
 
 </ul>
+<a href="simplecart_packages.html"><img style="width:25px; z-index:1800; position:relative; left:39px;top:15px;" src="shopping.png"></a>
 
 
 
