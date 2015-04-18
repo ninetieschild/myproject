@@ -160,7 +160,7 @@ h1{font-size:2.5em;}
 <img id="baby" src="babies1.png" style="width:80px;" >
 <img id="s" src="logo.png" style="left:70px;width:60px;z-index:-1000; top:175px;">
 <div class="process" style="position:relative;left:300px;">
-<p style="height:45px;width:600px;color: #666666; font-family: arial;font-size:50px;font-weight:bold; position: relative;top:20px; left:-90px;">Our Products</p>
+<p style="height:45px;width:600px;color: #666666; font-family: arial;font-size:50px;font-weight:bold; position: relative;top:55px; left:-90px;">Our Products</p>
 </div!-- process -->
 
 <div id="shopping_cart"  style="position:relative; top:100px;left:-280px; width:650px;padding-left:20px;">
@@ -223,7 +223,6 @@ h1{font-size:2.5em;}
 	</div!----inside-ordersummary---->
 
 </div> <!------------------------------shopping-cart------------------------------>
-<ul id="footer"> <li>Samatics.Inc</li> <li>2666 42nd st, suite 15B NY,NY</li>   <li>1.888.666.2234</li>  <li> info@samaticscloning.com </li></ul>
 </div>  <!----------------------------main-------------------------------------->
 </body>  
 </html>
